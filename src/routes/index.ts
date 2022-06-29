@@ -3,6 +3,6 @@ import pokemonRouter from "./pokemon-routes"
 
 const routes = Router()
 
-routes.use('/pokemon', pokemonRouter)
+routes.use('/', pokemonRouter)
 
 export default routes
