@@ -4,6 +4,6 @@ mongoose.connect(
     process.env.MONGO_URL!
 )
 .then(() => {
-    console.log('Mongo Connected!')
+    console.log('Database connected!')
 })
 .catch(err => console.log(err));
